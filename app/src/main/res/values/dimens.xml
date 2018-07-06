@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_padding">10dp</dimen>
+
+    <dimen name="common_padding">5dp</dimen>
+    <dimen name="common_padding1">8dp</dimen>
+    <dimen name="layout_padding">16dp</dimen>
+    <dimen name="large_padding">30dp</dimen>
+
+
+    <dimen name="text_sizeSmall">10sp</dimen>
+    <dimen name="text_sizeMedium1">15sp</dimen>
+    <dimen name="text_sizeMedium2">16sp</dimen>
+    <dimen name="text_sizeMedium3">18sp</dimen>
+    <dimen name="text_sizeLarge">20sp</dimen>
+    <dimen name="text_sizeXLarge">25sp</dimen>
+
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_bottom">20dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+
+
+    <dimen name="spinner_height">30dp</dimen>
+    <dimen name="large_marginTop">30dp</dimen>
+    <dimen name="small_margin">2dp</dimen>
+
+    <dimen name="profile_hieght">250dp</dimen>
+    <dimen name="searchViewHeight">48dp</dimen>
+
+</resources>

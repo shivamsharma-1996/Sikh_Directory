@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/a">
+        <item
+            android:id="@+id/nav_addMember"
+            android:icon="@drawable/ic_person_add"
+            android:title="Add Member" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="New Notification" />
+        <item
+            android:id="@+id/nav_markedContact"
+            android:icon="@drawable/ic_marked"
+            android:title="Marked Contact" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings"
+            app:showAsAction="always"/>
+    </group>
+
+    <group android:id="@+id/b">
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Feedback" />
+
+    </group>
+
+</menu>
